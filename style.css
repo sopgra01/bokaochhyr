@@ -1,0 +1,88 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bokahyr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+.bokahyr h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  color: green;
+}
+.bokahyr h2, .bokahyr .h3-grön {
+  color: green;
+}
+.bokahyr h3 {
+  font-size: 1rem;
+}
+.bokahyr p {
+  font-size: 1rem;
+}
+.bokahyr .utrustning {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+.bokahyr .utrustning .utrustning.text {
+  padding: 0 24px 24px 24px;
+  margin: 48px 12px;
+}
+.bokahyr .utrustning .utrustning.text span {
+  color: red;
+}
+.bokahyr .utrustning .cyklar {
+  display: inline-block;
+  width: 25%;
+  height: 15%;
+}
+.bokahyr .utrustning .cyklar .bild-cykel {
+  width: 100%;
+}
+.bokahyr .utrustning .bokning {
+  padding: 0 24px 24px 24px;
+  margin-right: 5%;
+}
+.bokahyr .utrustning .bokning .checkbox {
+  padding: 5px;
+  margin-bottom: 7px;
+}
+.bokahyr .utrustning .bokning .select-dropmeny {
+  border: 1px solid black;
+  padding: 4px 4px 4px 0;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+}
+.bokahyr .utrustning .bokning label {
+  font-size: 0.85em;
+}
+.bokahyr .utrustning .bokning .textfält {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.bokahyr .utrustning .bokning .btn {
+  background: green;
+  width: 100%;
+  color: white;
+  border: 0;
+  padding: 12px 24px;
+  text-align: center;
+}
+.bokahyr .utrustning .bokning .btn:hover {
+  background: rgb(2, 161, 2);
+  opacity: 1;
+}/*# sourceMappingURL=style.css.map */

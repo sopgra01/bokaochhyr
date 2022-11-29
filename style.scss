@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .bokahyr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Work Sans', sans-serif;
+    
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 60px;
+            color: green;
+            }
+        
+        h2,.h3-grön {
+            color: green;
+            }
+        
+        h3 {
+            font-size: 1rem;
+            }
+        
+        p {
+            font-size: 1rem;
+            }
+        
+        .utrustning {
+            display: flex;
+            flex-direction: row;
+            margin-left: 5%;
+                
+        .utrustning.text {
+            padding: 0 24px 24px 24px;
+            margin: 48px 12px;
+              span{
+                color: red;
+                }
+            }
+
+        .cyklar {
+            display: inline-block;
+            width: 25%;
+            height: 15%;
+                .bild-cykel {
+                    width: 100%;
+                    }
+            }
+
+        .bokning {
+            padding: 0 24px 24px 24px;
+            // margin: 48px 12px;
+            margin-right: 5%;
+
+            .checkbox {
+                padding: 5px;
+                margin-bottom: 7px;
+            }
+        
+            .select-dropmeny {
+                border:1px solid black;
+                padding: 4px 4px 4px 0;
+                margin-bottom: 20px;
+                margin-top: 10px;
+                width: 100%;
+                font-family: inherit;
+                font-size: inherit;
+                }
+                                     
+            label {
+                font-size: 0.85em;
+                }
+        
+            .textfält{
+                width: 100%;
+                padding: 6px;
+                border: 1px solid black;
+                box-sizing: border-box;
+                margin-top: 5px;
+                margin-bottom: 15px;
+                }
+        
+                    .btn{
+                        background: green;
+                        width: 100%;
+                        color: white;
+                        border: 0;
+                        padding: 12px 24px;
+                        text-align: center;
+                    }
+        
+                    .btn:hover{
+                        background: rgb(2, 161, 2);
+                        opacity: 1;
+                    }
+            }
+        }
+        
+        
+    }
+    
